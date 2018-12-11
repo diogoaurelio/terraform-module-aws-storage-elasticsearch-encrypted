@@ -12,7 +12,6 @@ Generic repository for a terraform module for AWS ElasticSearch encrypted databa
 - [Release log](#release-log)
 - [Module versioning & git](#module-versioning-&-git)
 - [Local terraform setup](#local-terraform-setup)
-- [Authors/Contributors](#authorscontributors)
 
 
 # Intro
@@ -35,7 +34,7 @@ Example usage:
 
 module "elasticsearch" {
 
-  source                                  = "github.com/diogoaurelio/terraform-module-aws-storage-elasticsearch-encrypted"
+  source                                  = "bitbucket.org/geanalytics/terraform-module-aws-storage-elasticsearch-encrypted"
   version                                 = "v0.0.1"
 
   domain_name                             = "search"
@@ -93,8 +92,3 @@ brew install terraform
 ```bash
 pre-commit install
 ```
-
-
-# Authors/Contributors
-
-See the list of [contributors](https://github.com/diogoaurelio/terraform-module-aws-storage-elasticsearch-encrypted/graphs/contributors) who participated in this project.
